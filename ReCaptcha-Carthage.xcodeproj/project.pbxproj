@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EECCFFF321410E7200AAF17A /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206BAD21F8D3E7600A25807 /* Result.framework */; };
 		F206BAB51F8D3DE900A25807 /* ReCaptcha-Carthage.h in Headers */ = {isa = PBXBuildFile; fileRef = F206BAB31F8D3DE900A25807 /* ReCaptcha-Carthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F206BAD31F8D3E7600A25807 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206BAD21F8D3E7600A25807 /* Result.framework */; };
 		F206BB1D1F8D4DBC00A25807 /* ReCaptcha_RxSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F206BB1B1F8D4DBC00A25807 /* ReCaptcha_RxSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,7 +20,6 @@
 		F24EA1E51F968403001DEC17 /* ReCaptchaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EA1DB1F9683F5001DEC17 /* ReCaptchaError.swift */; };
 		F24EA1E61F968403001DEC17 /* ReCaptcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24EA1DE1F9683F5001DEC17 /* ReCaptcha.swift */; };
 		F24EA1E71F968406001DEC17 /* recaptcha.html in Resources */ = {isa = PBXBuildFile; fileRef = F24EA1E01F9683F5001DEC17 /* recaptcha.html */; };
-		F255FBEC1F8D5654002F5FA8 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F255FBEB1F8D5654002F5FA8 /* Result.framework */; };
 		F2AE8614204F3B42002E28D7 /* ReCaptchaResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE8613204F3B41002E28D7 /* ReCaptchaResult.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECCFFF321410E7200AAF17A /* Result.framework in Frameworks */,
 				F206BB221F8D4DDF00A25807 /* RxSwift.framework in Frameworks */,
-				F255FBEC1F8D5654002F5FA8 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +238,7 @@
 		F206BAA71F8D3DE900A25807 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Flávio Caetano";
 				TargetAttributes = {
 					F206BAAF1F8D3DE900A25807 = {
@@ -335,6 +335,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -342,6 +343,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -395,6 +397,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -402,6 +405,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -452,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flaviocaetano.ReCaptcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -474,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flaviocaetano.ReCaptcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -498,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flaviocaetano.ReCaptcha-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -522,7 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flaviocaetano.ReCaptcha-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
