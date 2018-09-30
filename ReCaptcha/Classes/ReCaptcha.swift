@@ -102,7 +102,7 @@ public class ReCaptcha {
     }
 
     /// The worker that handles webview events and communication
-    let manager: ReCaptchaWebViewManager
+    public let manager: ReCaptchaWebViewManager
 
     /**
      - parameters:
