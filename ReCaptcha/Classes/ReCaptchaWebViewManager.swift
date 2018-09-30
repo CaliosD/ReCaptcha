@@ -104,7 +104,7 @@ public class ReCaptchaWebViewManager {
 
 #if DEBUG
     /// Forces the challenge to be explicitly displayed.
-    var forceVisibleChallenge = false {
+    public var forceVisibleChallenge = false {
         didSet {
             // Also works on iOS < 9
             webView.performSelector(
