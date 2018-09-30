@@ -12,7 +12,7 @@ import WebKit
 
 /** Handles comunications with the webview containing the ReCaptcha challenge.
  */
-internal class ReCaptchaWebViewManager {
+public class ReCaptchaWebViewManager {
     /** The `webView` delegate object that performs execution uppon script loading
      */
     fileprivate class WebViewDelegate: NSObject, WKNavigationDelegate {
