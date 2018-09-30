@@ -102,7 +102,7 @@ public class ReCaptchaWebViewManager {
         static let BotUserAgent = "Googlebot/2.1"
     }
 
-#if DEBUG
+//#if DEBUG
     /// Forces the challenge to be explicitly displayed.
     public var forceVisibleChallenge = false {
         didSet {
@@ -114,7 +114,7 @@ public class ReCaptchaWebViewManager {
             )
         }
     }
-#endif
+//#endif
 
     /// Sends the result message
     var completion: ((ReCaptchaResult) -> Void)?
